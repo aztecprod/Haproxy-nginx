@@ -1,9 +1,11 @@
 # Балансировка нагрузки. HAProxy/Nginx - Александр Шевцов
 ![image](https://github.com/aztecprod/Haproxy-nginx/assets/25949605/34b30466-7a47-4387-a19b-2bd00909b26c)
 Балансировка нагрузки (load balancing) — это процесс распределения нагрузки на пул серверов. 
+
 Распределение происходит на L4(Транспортный) или L7(Прикладной) уровнях модели OSI.
 ![image](https://github.com/aztecprod/Haproxy-nginx/assets/25949605/2cfbe097-2c38-426a-a46d-f7832caeb782)
 Round Robin - Запросы распределяются по пулу сервером последовательно. Лучше всего применять в случае, когда у нас имеются все сервера одинаковой мощности.
+
 Weight Round Robin - Запросы распределяются по пулу сервером в зависимости от его веса. Чем больше вес, чем чаще туда будет распределяться нагрузка. Лучше всего применять, когда сервера имеют разные мощности.
 ![image](https://github.com/aztecprod/Haproxy-nginx/assets/25949605/2f1f8a9f-6a89-4b3e-8df1-02b0e2a142f4)
 ![image](https://github.com/aztecprod/Haproxy-nginx/assets/25949605/d2da618f-59d5-40c5-8c79-f9c74de62a2a)
