@@ -60,3 +60,6 @@ return 200 'Nginx is configured correctly';
 ```
 ![image](https://github.com/aztecprod/Haproxy-nginx/assets/25949605/5b798151-72e8-48fc-b4a6-ba87eaa6a533)
 
+![image](https://github.com/aztecprod/Haproxy-nginx/assets/25949605/88a4dc5a-d413-4228-95a1-cca6d19aa6ad)
+
+![image](https://github.com/aztecprod/Haproxy-nginx/assets/25949605/514ecc8b-0709-4954-8653-4a493093c7ee)
