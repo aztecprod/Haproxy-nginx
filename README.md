@@ -62,6 +62,8 @@ return 200 'Nginx is configured correctly';
 
 ![image](https://github.com/aztecprod/Haproxy-nginx/assets/25949605/88a4dc5a-d413-4228-95a1-cca6d19aa6ad)
 
+Настройка Haproxy:
+
 ```
 global
         log /dev/log    local0
@@ -110,4 +112,4 @@ backend mynginx
 #       server web1 192.168.0.108:80
 
 ```
-![image](https://github.com/aztecprod/Haproxy-nginx/assets/25949605/514ecc8b-0709-4954-8653-4a493093c7ee)
+![image](https://github.com/aztecprod/Haproxy-nginx/assets/25949605/e224defd-064c-46ef-a5b4-f0dec2344075)
